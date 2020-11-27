@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name='cpro',
-    version='0.5.1',
+    version='0.5.2',
     packages=['cpro'],
     url='',
     license='Apache 2',
