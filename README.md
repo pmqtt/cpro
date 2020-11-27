@@ -1,4 +1,4 @@
-#cpro
+# cpro
 ### Automate your C/C++ workflow
 The goal of cpro is to help you
  focus on the development process. 
