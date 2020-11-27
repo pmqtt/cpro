@@ -23,11 +23,11 @@ def create_cmakelist_file(project_name :str):
     f.write('include(CMAKE_FILES.txt)\n')
     f.write('add_executable('+project_name + ' $<TARGET_OBJECTS:PROJECT_FILES> )\n')
     f.close()
-    f = open('src/cpro.cpp',"w")
+    f = open('src/main.cpp',"w")
     f.write('int cpro(int argc,char **argv){\n\treturn 0;\n}')
     f.close()
     f = open('CMAKE_FILES.txt','w')
-    f.write('add_library(PROJECT_FILES OBJECT src/cpro.cpp)')
+    f.write('add_library(PROJECT_FILES OBJECT src/main.cpp)')
     f.close()
 def create_project(project_name : str):
     os.mkdir('./src')

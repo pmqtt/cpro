@@ -1,7 +1,9 @@
 #cpro
 ### Automate your C/C++ workflow
-The goal of cpro is to help you to focus on the development process.
-cpro will observe your C/C++ project and adds automatic your files to the cmake enviroment.
+The goal of cpro is to help you
+ focus on the development process. 
+ cpro will observe your C/C++ project and adds missing files to the cmake environment automatically.
+
 `hier kommen die bilder`
 
 ## Getting Started
